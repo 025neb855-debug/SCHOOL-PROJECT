@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://www.neenan.com/wp-content/uploads/2022/11/1-1.jpg');
+}
+        h3 { color:white; text-align:center;}
+        header { background-color: #468faf; color: white; padding: 2rem; text-align: center; }
+        nav { background: #34495e; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #3498db; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .hero-image { background: #ecf0f1; padding: 50px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+        footer { background-color:#468faf; color: white; text-align: center; padding: 1rem; position: relative; bottom: 0; width: 100%; }
+        .btn { background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .message{
+padding: 25px;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 20px; 
+background-color: white; text-align:justify;}
+        .news{
+padding: 25px;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 20px; 
+background-color:white}
