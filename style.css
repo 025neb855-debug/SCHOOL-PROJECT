@@ -5,25 +5,31 @@ body {
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('https://www.neenan.com/wp-content/uploads/2022/11/1-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
 }
-        h3 { color:white; text-align:center;}
-        header { background-color: #468faf; color: white; padding: 2rem; text-align: center; }
-        nav { background: #34495e; padding: 0.5rem; text-align: center; }
+        h3 { color:white; text-align:center; font-size: 30x;}
+        header { 
+            display: flex; align-items: center; justify-content:center; gap: 10px; background-color: #2596be; color: white; padding: 2rem; text-align: center; }
+        nav { background: #1e3a8a; padding: 0.5rem; text-align: center; }
         nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        nav a:hover { color: #3498db; }
         .container { max-width: 800px; margin: auto; padding: 20px; }
-        .hero-image { background: #ecf0f1; padding: 50px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
-        footer { background-color:#468faf; color: white; text-align: center; padding: 1rem; position: relative; bottom: 0; width: 100%; }
+        .hero-image { 
+            background:burlywood; padding: 50px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+        footer { background-color: #2596be; color: white; text-align: center; padding: 15px; width: 100%;font-size: 14px;}
         .btn { background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .logo {width:200px; height:200px;}
         .message{
+            background: cyan;
 padding: 25px;
-    width: 60%;
+    width: 80%;
     margin: 40px auto;
     border-radius: 20px; 
-background-color: white; text-align:justify;}
+text-align:justify;}
         .news{
+            background:moccasin;
 padding: 25px;
-    width: 60%;
+    width: 80%;
     margin: 40px auto;
     border-radius: 20px; 
-background-color:white}
+}
