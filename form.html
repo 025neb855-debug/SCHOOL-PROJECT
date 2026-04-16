@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+    <style>
+        nav { background:goldenrod; padding: 0.5rem; text-align: center; font-family: sans-serif; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Students Detail</a>
+        <a href="academic.html">Academics</a>
+        <a href="form.html">Registration Form</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div style="background-color:#468faf;">
+    <h2 style="text-align:center;color:white;">REGISTRATION FORM!!!</h2>
+    </div>
+    <div style="background-color: #eef2f7;">
+    <p><b>You can fill out the given form to register for the admission:</b></p>
+    <form>
+        <label for="fname"><b>Enter First Name:</b></label>
+        <input type="text"id="fname" name="fname"placeholder="Raj">
+        <br>
+        <br>
+        <label for="lname"><b>Enter Last Name:</b></label>
+        <input type="text"id="lname" name="lname"placeholder="Lamichhane">
+        <br><br>
+        <label for="dob"><b>Enter Date of Birth(in AD):</b></label>
+        <input type="date"id="dob" name="dob">
+        <br><br>
+        <p><b>Which class are you applying for?</b></p>
+        <input list="class" name="class">
+        <datalist id="class">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+        </datalist>
+        <br>
+        <br>
+        <label for="gender"> Gender</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        <p><b>What are your hobbies?</b></p>
+        <input type="checkbox" id="hobby1" name="hobby1" value="rb">
+        <label for="hobby1">Reading books</label>
+        <br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="pg">
+        <label for="hobby2">Playing games</label>
+        <br>
+        <input type="checkbox" id="hobby3" name="hobby3" value="art">
+        <label for="hobby3">Art</label>
+        <p>If other, mention:
+            <input type="textarea" rows="5" cols="10">
+        </p>
+        <p><b>If you are applying for higher secondary level, choose your faculty:</b></p>
+        <input type="radio" id="science" name="faculty" value="science">
+        <label for="science">Science</label> <br>
+        <input type="radio" id="commerce" name="faculty" value="commerce">
+        <label for="commerce">Commerce</label> <br>
+        <input type="radio" id="art" name="faculty" value="art">
+        <label for="art">Art</label> <br>
+        <p><b>Create a strong password for your school account:</b></p>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd">
+    </div>
+        <br>
+        <div style="text-align:center; background-color:#468faf;">
+            
+        <input type="submit" value="Submit" style="background-color: green; color:white; padding:5px;">
+        <input type="reset" value="Cancel" style="background-color: red; color:white; padding:5px;">
+        <br>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact - St. Juniper's Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://media.istockphoto.com/id/1341581981/photo/wooden-block-with-symbol-telephone-email-address-website-page-contact-us-or-e-mail-marketing.jpg?s=612x612&w=0&k=20&c=kxwOyKQ97AcX6Dp7olk7IJAoK8puwNu1zN024pK2pfE=');
+        }
+        h2 {
+            text-align: center;
+            margin: 50px;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .contact-info, .contact-form, .socialmedia {
+            justify-items: center;
+            align-items:center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin:50px;
+                    }
+                    .container{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #2a6f97;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+        nav { background: goldenrod; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html" class="active">Students Detail</a>
+        <a href="academic.html">Academics</a>
+        <a href="form.html">Registration Form</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+        <h2>Contact Us</h2>
+        <div class="container">
+            <div class="contact-info">
+                <p><strong>Address:</strong> Baneshwor, Kathmandu, Nepal</p>
+                <p><strong>Phone:</strong> +977-9800000000</p>
+                <p><strong>Email:</strong> info@st.juniper'sacademy.com</p>
+            </div>
+<hr>
+<h2>Contact form</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+<hr>
+<h2>Our Social Media</h2>
+<div class="socialmedia">
+       <p><strong>Facebook:</strong> St. Juniper's Academy, Kathmandu</p>
+       <p><strong>Instagram:</strong> st.junipers_ktm</p>
+       <p><strong>Twitter:</strong>@juniper's</p>
+</div>
+</div>
+</body>
+</html>
